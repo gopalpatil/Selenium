@@ -1,0 +1,44 @@
+Selenium Tasks:
+1. All Udemy Assignments
+2. Calendar control
+	Select current date
+	Select specific Month and Date using next controll 
+3. Automate Captcha 
+4. Auto Suggestive fields (drop down)
+5. Accept SSL certificate (Chrome) -- Using DiredCapabilities class
+6. Excel Practice.. Get data and insert data 	
+	
+	
+================================================================================
+Questions:
+
+- What is the use of JavaScript in selenium? how to use it?
+- Can we do Performance testing or load testing using selenium? or can we integrate selenium tcs with jmeter? how?
+- HTMLUnitDriver ? Headless web driver?
+- Difference between Implicit Wait, Explicit Wait and Fluent Wait?
+==> Explicit wait keeps checking DOM for Web Element continuosly (i.e. every milisecond it keeps checking) till the given timeout time. If the element found within the time, it reads the element and then proceed to next step. 
+Fluent Wait keeps checking DOM for Web Element repeteadly at regular interval of time until the timeout or object gets find out.
+i.e. if polling time is given as 3 seconds, then after every 3 secs, webelements gets checked in DOM.
+Note that: WebDriverWait and FluentWait are classes, which implements Wait interface
+
+- What is difference between Array and ArrayList
+- What is differnce between ArrayList and HashSet
+- What is difference between List and Set Interfaces
+- What is difference between HashMap and HashTable
+- 
+
+===============================================================================
+Java Programs:
+- Reverse String
+- identify if the string is Palindrom
+- Find smallest number in multi-dimentional matrix
+- Find largest number in the column in which smallest number found in multi-dimentional matrix
+- date control, calendar control
+- 
+
+
+================================================================================
+Notes:
+- Hidden elements/text cannot be captured using Selenium. It is the limitation of this tool. How to handle this hidden 
+elements. =>> using JavaScript. JavaScript DOM can identify hidden elements.
+-Add more about how to run tests/classes parallel ==> using Parallel parameter into testng.xml
